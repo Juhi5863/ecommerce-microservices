@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: kpkm25/product-service:latest
+        image: juhichoudhary/product-service:latest
         ports:
         - containerPort: 8082
         env:
